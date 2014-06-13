@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TableViewController1.h"
+#import "CustomCell.h"
+#import "Shop.h"
 
-@interface HelloViewController : UIViewController
+@interface HelloViewController : UIViewController {
+    IBOutlet UITableView *tableView2;
+    TableViewController1 *datasource;
+    MyView *myView;
+    Shop *shop;
+}
 
+@property (nonatomic,retain) UITableView *tableView2;
+
+-(IBAction)showMessage;
+- (void)gotoNext;
 @end

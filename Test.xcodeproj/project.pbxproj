@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42257176194013990056349A /* TableViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 42257175194013990056349A /* TableViewController1.m */; };
+		42257178194025AA0056349A /* book-cover-basic-200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42257177194025AA0056349A /* book-cover-basic-200.jpg */; };
+		422571A0194058AC0056349A /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4225719F194058AC0056349A /* CustomCell.m */; };
+		428B333C194ABA75006B9E66 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 428B333A194ABA75006B9E66 /* MyView.m */; };
+		428B333D194ABA75006B9E66 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 428B333B194ABA75006B9E66 /* MyView.xib */; };
+		428B3340194ADA21006B9E66 /* Shop.m in Sources */ = {isa = PBXBuildFile; fileRef = 428B333F194ADA21006B9E66 /* Shop.m */; };
 		42E3C097193EFCDC006B2817 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E3C096193EFCDC006B2817 /* Foundation.framework */; };
 		42E3C099193EFCDC006B2817 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E3C098193EFCDC006B2817 /* CoreGraphics.framework */; };
 		42E3C09B193EFCDC006B2817 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E3C09A193EFCDC006B2817 /* UIKit.framework */; };
@@ -34,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42257174194013990056349A /* TableViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController1.h; sourceTree = "<group>"; };
+		42257175194013990056349A /* TableViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController1.m; sourceTree = "<group>"; };
+		42257177194025AA0056349A /* book-cover-basic-200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "book-cover-basic-200.jpg"; path = "../../../Downloads/book-cover-basic-200.jpg"; sourceTree = "<group>"; };
+		4225719E194058AC0056349A /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		4225719F194058AC0056349A /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		428B3339194ABA75006B9E66 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		428B333A194ABA75006B9E66 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		428B333B194ABA75006B9E66 /* MyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
+		428B333E194ADA21006B9E66 /* Shop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shop.h; sourceTree = "<group>"; };
+		428B333F194ADA21006B9E66 /* Shop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shop.m; sourceTree = "<group>"; };
 		42E3C093193EFCDC006B2817 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E3C096193EFCDC006B2817 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42E3C098193EFCDC006B2817 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +128,7 @@
 		42E3C09C193EFCDC006B2817 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				42257177194025AA0056349A /* book-cover-basic-200.jpg */,
 				42E3C0A5193EFCDC006B2817 /* HelloAppDelegate.h */,
 				42E3C0A6193EFCDC006B2817 /* HelloAppDelegate.m */,
 				42E3C0A8193EFCDC006B2817 /* Main.storyboard */,
@@ -119,6 +136,15 @@
 				42E3C0AC193EFCDC006B2817 /* HelloViewController.m */,
 				42E3C0AE193EFCDC006B2817 /* Images.xcassets */,
 				42E3C09D193EFCDC006B2817 /* Supporting Files */,
+				42257174194013990056349A /* TableViewController1.h */,
+				42257175194013990056349A /* TableViewController1.m */,
+				4225719E194058AC0056349A /* CustomCell.h */,
+				4225719F194058AC0056349A /* CustomCell.m */,
+				428B3339194ABA75006B9E66 /* MyView.h */,
+				428B333A194ABA75006B9E66 /* MyView.m */,
+				428B333B194ABA75006B9E66 /* MyView.xib */,
+				428B333E194ADA21006B9E66 /* Shop.h */,
+				428B333F194ADA21006B9E66 /* Shop.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -229,8 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42257178194025AA0056349A /* book-cover-basic-200.jpg in Resources */,
 				42E3C0AF193EFCDC006B2817 /* Images.xcassets in Resources */,
 				42E3C0A1193EFCDC006B2817 /* InfoPlist.strings in Resources */,
+				428B333D194ABA75006B9E66 /* MyView.xib in Resources */,
 				42E3C0AA193EFCDC006B2817 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,9 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				428B3340194ADA21006B9E66 /* Shop.m in Sources */,
 				42E3C0AD193EFCDC006B2817 /* HelloViewController.m in Sources */,
+				42257176194013990056349A /* TableViewController1.m in Sources */,
+				428B333C194ABA75006B9E66 /* MyView.m in Sources */,
 				42E3C0A3193EFCDC006B2817 /* main.m in Sources */,
 				42E3C0A7193EFCDC006B2817 /* HelloAppDelegate.m in Sources */,
+				422571A0194058AC0056349A /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +489,7 @@
 				42E3C0C7193EFCDD006B2817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42E3C0C8193EFCDD006B2817 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +498,7 @@
 				42E3C0CA193EFCDD006B2817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
